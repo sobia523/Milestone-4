@@ -1,0 +1,78 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+
+form{
+    margin: auto;
+    background-color: rgb(171, 177, 122);
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(35, 35, 35, 0.7);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+fieldset{
+    border: 2px solid rgb(124, 95, 9);
+    border-radius: 9px;
+    padding: 21px;
+    margin-bottom: 21px;
+    background-color: antiquewhite;
+}
+
+legend{
+    font-weight: bolder;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+input,textarea{
+    margin-top: 5px;
+    padding: 9px;
+    width: calc(100% - 1px);
+    border: 1px solid rgb(120, 117, 117);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 100%;
+    background-color: rgb(80, 104, 29);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 9px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(40, 52, 16);
+    color: white;
+}
+
+#dynamic-resume{
+    max-width: 610px;
+    margin: auto;
+    padding: 21px;
+    border-radius: 9px;
+    border: 2px solid rgb(40, 172, 0);
+    background-color: rgb(230, 245, 236);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    outline: none; /* Editable Resume*/
+}
+
+#dynamic-resume h2{
+    color: black;
+}
